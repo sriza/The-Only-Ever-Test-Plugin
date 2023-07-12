@@ -4,7 +4,7 @@ on:
     push:
         # Sequence of patterns matched against refs/tags
         tags:
-            - "*" # Push events to matching any tag format, i.e. 1.0, 20.15.10
+            - "v*" # Push events to matching any tag format, i.e. 1.0, 20.15.10
 
 env:
     PLUGIN_NAME: The-Only-Ever_Test-Plugin # Change this to the name of your plugin-id folder
