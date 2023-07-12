@@ -11,6 +11,8 @@ env:
 
 jobs:
     build:
+        permissions: write-all
+
         runs-on: ubuntu-latest
 
         environment: env-for-buildci
